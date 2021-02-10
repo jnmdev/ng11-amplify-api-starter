@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "ng11seedawsauth6908fc22": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
