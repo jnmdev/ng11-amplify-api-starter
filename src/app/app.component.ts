@@ -28,8 +28,10 @@ import { Auth } from 'aws-amplify';
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              
-              <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+              <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/esri" routerLinkActive="active">esri</a>
             </li>
             <li class="nav-item">
               <button class="btn btn-warning text-white" (click)="signOut()">SignOut</button>
@@ -38,6 +40,7 @@ import { Auth } from 'aws-amplify';
         </ul>
     </div>
   </nav>
+  <router-outlet></router-outlet>
   `,
   styles: []
 })
